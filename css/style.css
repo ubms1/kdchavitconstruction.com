@@ -500,6 +500,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   transition: transform 8s ease;
 }
 .hero__slide.active .hero__slide-bg { transform: scale(1); }
+
+/* Hero slide background images */
+.hero__slide-bg--1 { background-image: url('https://images.unsplash.com/photo-1519406596751-0a3ccc4937fe?w=1920&q=80&auto=format'); }
+.hero__slide-bg--2 { background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80&auto=format'); }
+.hero__slide-bg--3 { background-image: url('https://images.unsplash.com/photo-1478095533739-3ff4e7b46c00?w=1920&q=80&auto=format'); }
 .hero__bg-overlay {
   position: absolute;
   inset: 0;
@@ -2179,3 +2184,22 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* Footer heart accent icon */
 .footer__heart { color: var(--accent); }
+
+/* Page hero background images — per page */
+.page-hero__bg--about          { background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80&auto=format'); }
+.page-hero__bg--services       { background-image: url('https://images.unsplash.com/photo-1519406596751-0a3ccc4937fe?w=1600&q=80&auto=format'); }
+.page-hero__bg--projects       { background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80&auto=format'); }
+.page-hero__bg--mission        { background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80&auto=format'); }
+.page-hero__bg--vision         { background-image: url('https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1600&q=80&auto=format'); }
+.page-hero__bg--values         { background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&q=80&auto=format'); }
+.page-hero__bg--certifications { background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80&auto=format'); }
+.page-hero__bg--contact        { background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&q=80&auto=format'); }
+
+/* Why list centered layout variant */
+.why__list--centered { max-width: 800px; margin: 0 auto; }
+
+/* MVV read-more button spacing */
+.mvv__read-more { margin-top: 1.5rem; }
+
+/* MVV values CTA wrapper */
+.mvv__values-cta { text-align: center; margin-top: 2rem; }
