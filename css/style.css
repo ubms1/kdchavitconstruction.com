@@ -940,10 +940,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-family: 'Montserrat', sans-serif;
   font-size: .92rem;
   font-weight: 800;
-  color: var(--white);
+  color: var(--primary);
   margin-bottom: 4px;
 }
-.why__item p { font-size: .85rem; color: rgba(255,255,255,.6); line-height: 1.6; }
+.why__item p { font-size: .85rem; color: var(--text); line-height: 1.6; }
 
 /* Visual */
 .why__visual { position: relative; }
