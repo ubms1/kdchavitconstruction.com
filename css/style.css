@@ -1153,7 +1153,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   background: rgba(232,160,32,.12);
   color: var(--accent);
 }
-.cert-card p { font-size: .88rem; color: var(--text-light); line-height: 1.7; }
+.cert-card p { font-size: .88rem; color: var(--text-dark); line-height: 1.7; }
 
 /* -----------------------------------------------------------
    14. CONTACT
